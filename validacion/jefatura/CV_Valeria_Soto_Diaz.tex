@@ -1,0 +1,153 @@
+\documentclass[10pt,a4paper]{article}
+
+% --------------------------------------------------
+% CONFIGURACIÓN GENERAL
+% --------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[
+    left=1.40cm,
+    right=1.40cm,
+    top=1.05cm,
+    bottom=1.05cm
+]{geometry}
+
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Paleta de colores
+\definecolor{principal}{HTML}{243E53}
+\definecolor{texto}{HTML}{292D32}
+\definecolor{secundario}{HTML}{626B73}
+\definecolor{linea}{HTML}{CBD3DA}
+
+% --------------------------------------------------
+% TÍTULOS DE SECCIÓN
+% --------------------------------------------------
+\titleformat{\section}
+    {\fontsize{10}{12}\selectfont\bfseries\color{principal}}
+    {}
+    {0pt}
+    {}
+    [\vspace{1pt}{\color{linea}\titlerule[0.45pt]}]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% --------------------------------------------------
+% LISTAS
+% --------------------------------------------------
+\setlist[itemize]{
+    leftmargin=1.25em,
+    label=\textcolor{principal}{\textbullet},
+    labelsep=0.55em,
+    itemsep=1pt,
+    topsep=2.5pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% --------------------------------------------------
+% ELEMENTOS REUTILIZABLES
+% --------------------------------------------------
+
+% Empresa o institución y ubicación
+\newcommand{\entidad}[2]{%
+    \noindent
+    \textbf{#1}\hfill
+    {\small\color{secundario}#2}\par
+}
+
+% Cargo y fechas
+\newcommand{\cargo}[2]{%
+    \noindent
+    \textit{#1}\hfill
+    {\small\color{secundario}#2}\par
+}
+
+% Programa académico y fechas
+\newcommand{\programa}[2]{%
+    \noindent
+    #1\hfill
+    {\small\color{secundario}#2}\par
+}
+
+% Competencias y herramientas
+\newcommand{\detalle}[2]{%
+    \noindent
+    \textbf{#1} #2\par
+    \vspace{2pt}
+}
+
+\begin{document}
+
+\fontsize{9.2}{11}\selectfont
+\color{texto}
+
+\begin{center}
+    {\fontsize{23}{27}\selectfont
+     \bfseries\color{principal}Valeria Soto Díaz\par}
+
+    \vspace{4pt}
+
+    {\fontsize{9.5}{12}\selectfont
+     \bfseries Control de Gestión \textbar{} Retail \textbar{} Forecast de margen \par}
+
+    \vspace{5pt}
+
+    {\fontsize{8.5}{10.5}\selectfont\color{secundario}
+     Santiago, Chile \textbullet{} +56 9 0000 0101 \textbullet{}
+     \href{mailto:valeria.soto@example.com}{valeria.soto@example.com}\par}
+\end{center}
+
+\vspace{-3pt}
+{\color{principal}\hrule height 1pt}
+\vspace{2pt}
+
+\section{RESUMEN PROFESIONAL}
+
+Profesional de Ingeniería Comercial con experiencia en jefatura de Control de Gestión
+en retail. Lidera el cierre y el forecast de margen, supervisa un equipo de tres
+personas y coordina con Comercial la conciliación de diferencias de margen.
+
+\section{COMPETENCIAS TÉCNICAS}
+
+\detalle{Control de gestión}{Cierre, forecast de margen y control presupuestario.}
+
+\section{HERRAMIENTAS TÉCNICAS}
+
+\noindent\textbf{Excel avanzado}\par\vspace{2pt}
+\detalle{Power BI}{Panel de cierre.}
+
+\section{EXPERIENCIA PROFESIONAL}
+
+\entidad{Retail Ejemplo}{}
+\cargo{Jefa de Control de Gestión}{Ene 2020 -- Presente}
+
+\begin{itemize}
+    \item Lidera el cierre y el forecast de margen y supervisa un equipo de tres personas.
+    \item Controla un presupuesto de CLP 8.000 millones.
+    \item Redujo el plazo de cierre de 8 a 5 días con un panel en Power BI.
+    \item Concilió diferencias de margen con Comercial y acordó un catálogo común.
+    \item Corrigió un forecast de margen mediante alertas y validación de supuestos con Comercial.
+\end{itemize}
+
+\vspace{5pt}
+
+\cargo{Analista de Finanzas}{Jul 2016 -- Dic 2019}
+
+\section{FORMACIÓN ACADÉMICA}
+
+\entidad{U. Ejemplo}{}
+\programa{Ingeniería Comercial}{2011 -- 2015}
+
+\end{document}

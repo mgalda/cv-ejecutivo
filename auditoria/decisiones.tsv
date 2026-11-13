@@ -1,0 +1,12 @@
+ts	phase	decision	why	evidence	result
+2026-11-13T23:22:23Z	start	Auditar e implementar en la carpeta CV	El usuario pidió una skill utilizable y evidencia de siete etapas	../README.md	Alcance establecido
+2026-11-13T23:22:23Z	diseño	Distribuir el original entre cuatro módulos y una plantilla íntegra	Preservar condiciones, prosa y formato con carga por etapa	trazabilidad.md	75 filas trazadas y 249 líneas de plantilla verificadas
+2026-11-13T23:22:23Z	investigación	Integrar métodos de las cuatro referencias con redacción propia	Mejorar evidencia y preparación sin adoptar dependencias de terceros	comparacion.md	Revisión estática de las cuatro fuentes
+2026-11-13T23:22:23Z	conflicto	Excluir perfiles persistentes y experiencia inédita de la redacción	El original limita afirmaciones profesionales al CV vigente	comparacion.md	Regla incorporada en el protocolo
+2026-11-13T23:22:23Z	conflicto	Conservar revisión integrada y salida LaTeX por vacante	Los modos parciales y formatos alternativos de referencias cambian el contrato	../SKILL.md	Flujo y plantilla vinculados
+2026-11-13T23:22:23Z	validación	Verificar metadatos con comprobaciones directas	El validador oficial requiere PyYAML y los intérpretes examinados carecen de ella	../SKILL.md	Nombre, campos y marcadores comprobados
+2026-11-13T23:22:23Z	validación	Añadir extracción raw o layout como control complementario	La extracción predeterminada desplazó fechas pese a una compilación correcta	../references/protocolo.md	Comprobado en la plantilla intacta
+2026-11-13T23:25:12Z	validación	Ejecutar jefatura y subgerencia con datos sintéticos	Comprobar contraste de jerarquía, sector, brechas, entrevista y salida	../validacion/README.md	Casos independientes con insumos reproducibles
+2026-11-13T23:25:12Z	auditoría	Registrar validación parcial cuando la extracción predeterminada separa fechas	La extracción alternativa confirma asociación sin simular un ATS real	../references/protocolo.md	Corrección aplicada a la instrucción de cierre
+2026-11-13T23:25:12Z	auditoría	Probar investigación con empleador identificado	Los dos casos originales usan empresas confidenciales	../validacion/investigacion-empresa.md	Prueba dirigida con fuentes primarias
+2026-11-13T23:25:12Z	validación	Comprobar rechazo de una alteración al límite STAR	Una prueba negativa verifica que el control detecta pérdida de fidelidad	verificar.py	El verificador rechazó el cambio en la línea 149
