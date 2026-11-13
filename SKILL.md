@@ -5,7 +5,7 @@ description: Adapta CV y prepara postulaciones concretas de Ingeniería Comercia
 
 # CV ejecutivo y preparación de postulaciones
 
-El marco original tiene precedencia sobre las mejoras de ejecución. Está distribuido íntegramente entre los cuatro módulos y la plantilla. Lee [reglas de entrada](references/00-entrada.md) antes de trabajar. Sin vacante concreta, pide el texto o enlace y detén el análisis. Si el enlace es inaccesible, pide el texto. Usa el CV vigente que el usuario haya indicado. Si falta o hay versiones ambiguas, solicita el CV o confirma cuál es vigente. Con oferta verificable puedes avanzar en la investigación de contexto mientras esperas el CV.
+Aplica primero las instrucciones posteriores del usuario en los puntos que modifiquen expresamente. El marco original rige el resto. Usa las referencias externas y las mejoras de ejecución como complemento compatible con esas instrucciones. Está distribuido íntegramente entre los cuatro módulos y la plantilla. Lee [reglas de entrada](references/00-entrada.md) antes de trabajar. Sin vacante concreta, pide el texto o enlace y detén el análisis. Si el enlace es inaccesible, pide el texto. Usa el CV vigente que el usuario haya indicado. Si falta o hay versiones ambiguas, solicita el CV o confirma cuál es vigente. Con oferta verificable puedes avanzar en la investigación de contexto mientras esperas el CV.
 
 ## Por cada vacante
 
